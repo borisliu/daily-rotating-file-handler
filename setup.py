@@ -5,7 +5,7 @@ long_description = ""
 with open("README.rst") as f:
     long_description = f.read()
 
-setup(name = 'dailyrotatingfilelogger',
+setup(name = 'dailyrotatingfilehandler',
     version = '0.0.1',
     url = 'https://github.com/borisliu/daily-rotating-log-handler',
     license = 'MIT',
