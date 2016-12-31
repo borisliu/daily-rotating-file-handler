@@ -1,2 +1,2 @@
-# daily-rotating-log-handler
+# dailyrotatingfilelogger
 Rotating the log file every midnight.
