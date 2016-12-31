@@ -2,7 +2,7 @@ import os
 import logging
 from logging.handlers import TimedRotatingFileHandler
 
-__version__  = '0.0.1'
+__version__  = '0.0.4'
 __author__ = "borisliu"
 
 
@@ -19,6 +19,6 @@ class DailyRotatingFileHandler(TimedRotatingFileHandler):
     '%(asctime)s,%(message)s', '%Y-%m-%d %H:%M:%S').
         # level : the logger's level, default is logging.DEBUG
         """
-        TimedRotatingFileHandler.__init__(self, filename=loggerFile, when='midnight', encoding='utf-8')
-        suffix = '%Y%m%d'
-        setFormatter(formatter)
+        TimedRotatingFileHandler.__init__(self, filename=filename, when='midnight', encoding='utf-8')
+        self.suffix = '%Y%m%d'
+        self.setFormatter(formatter)
