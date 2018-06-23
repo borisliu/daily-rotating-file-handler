@@ -34,6 +34,7 @@ setup(name = 'dailyrotatingfilehandler',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
     ],
     py_modules=['dailyrotatingfilehandler'],
 )
